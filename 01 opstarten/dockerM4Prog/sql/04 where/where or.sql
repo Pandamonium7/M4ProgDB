@@ -15,7 +15,7 @@ select * from `kleren` where kledingtype = "broek" AND kleur IN ('zwart','wit');
 
 select * from `kleren` where kledingtype IN ('broek', 'overhemd') AND kleur IN ('zwart','wit');	
 
-select * from `kleren` where kledingtype = 'broek' OR kledingtype 'overhemd' AND kleur = 'zwart' OR kleur = 'wit';
+select * from `kleren` where kledingtype IN ('broek' OR kledingtype 'overhemd') AND kleur = 'zwart' OR kleur = 'wit';
 
 select * from `kleren` where kledingtype IN ('tshirt', 'overhemd') AND kleur IN ('rood','blauw');	
 
